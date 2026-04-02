@@ -29,7 +29,8 @@ int total_de_notas(int valor){
         // Atualiza o valor com o resto da divisão para a próxima volta
         valor = valor % notas[i]; 
     }
-    
+
+    // Loop responsável pela impressão do texto Quantidades x Valores de Nota
     for (int i = 0; i < 7; i++){
         printf("%d nota(s) de R$ %d,00\n", quantidades[i], notas[i]);
 
